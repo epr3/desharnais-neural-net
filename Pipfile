@@ -12,6 +12,9 @@ numpy = "*"
 tensorflow = "*"
 scipy = "*"
 sklearn = "*"
+h5py = "*"
+pydot = "*"
+pygraphviz = "*"
 
 [requires]
 python_version = "3.7"
