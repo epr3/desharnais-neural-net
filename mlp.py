@@ -1,14 +1,12 @@
 from keras.models import Sequential
-from keras.utils import np_utils
-from keras.layers.core import Dense, Activation, Dropout
-from sklearn.preprocessing import  MinMaxScaler
+from keras.layers import Dense, Activation, Dropout
+from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-from keras.utils.vis_utils import plot_model
+from keras.utils import plot_model
 import csv
 sc= MinMaxScaler()
 
 import pandas as pd
-import numpy as np
 
 # Read data
 data = pd.read_csv('./desharnais.csv')
